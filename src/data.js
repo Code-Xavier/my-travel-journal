@@ -1,0 +1,136 @@
+const data = [
+  {
+    id: 0,
+    title: "The Netherlands",
+    location: "📌 The Netherlands ",
+    googleMapsUrl: "https://goo.gl/maps/rmvLAsnb9J8chyHo7",
+    startDate: "2000 -",
+    endDate: "2006",
+    description:
+     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    imageUrl: "rotterdam.jpg",
+    isNotLast: true /* is used to conditionally render a <hr /> element at the top of the Travel Card component */,
+  },
+  {
+    id: 1,
+    title: "England",
+    location: "📌 The United Kingdom ",
+    googleMapsUrl: "https://goo.gl/maps/fC9DotBkTwv728wt5",
+    startDate: "Visited in 2004",
+    endDate: "",
+    description:
+     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    imageUrl: "england.jpg",
+    isNotLast: true /* is used to conditionally render a <hr /> element at the top of the Travel Card component */,
+  },
+  {
+    id: 2,
+    title: "Curaçao",
+    location: "📌 Curaçao ",
+    googleMapsUrl: "https://goo.gl/maps/75qM6PGWw8oKBAbP6",
+    startDate: "2006 -",
+    endDate: "2016",
+    description:
+     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    imageUrl: "willemstad.jpg",
+    isNotLast: true /* is used to conditionally render a <hr /> element at the top of the Travel Card component */,
+  },
+  {
+    id: 3,
+    title: "California",
+    location: "📌 United States ",
+    googleMapsUrl: "https://goo.gl/maps/5yQVrEyUZbeYBiv28",
+    startDate: "Lived here (July 2012 -",
+    endDate: "Dec 2012)",
+    description:
+     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    imageUrl: "california.jpg",
+    isNotLast: true /* is used to conditionally render a <hr /> element at the top of the Travel Card component */,
+  },
+  {
+    id: 4,
+    title: "Florida",
+    location: "📌 United States ",
+    googleMapsUrl: "https://goo.gl/maps/bhomJ9ouDHqWvQEK8",
+    startDate: "Visited in Dec 2012",
+    endDate: "",
+    description:
+     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    imageUrl: "florida.jpg",
+    isNotLast: true /* is used to conditionally render a <hr /> element at the top of the Travel Card component */,
+  },
+  {
+    id: 5,
+    title: "Guyana",
+    location: "📌 Guyana ",
+    googleMapsUrl: "https://goo.gl/maps/AHMf6sz93CLvfX9dA",
+    startDate: "Lived here (2014-2015)",
+    endDate: " & (2016-2021)",
+    description:
+     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    imageUrl: "guyana.jpg",
+    isNotLast: true /* is used to conditionally render a <hr /> element at the top of the Travel Card component */,
+  },
+  {
+    id: 6,
+    title: "Turkey",
+    location: "📌 Turkey ",
+    googleMapsUrl: "https://goo.gl/maps/ybNp5gYzsmcjkBq47",
+    startDate: "Visited in 2005",
+    endDate: "",
+    description:
+     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    imageUrl: "turkey.jpg",
+    isNotLast: true /* is used to conditionally render a <hr /> element at the top of the Travel Card component */,
+  },
+  {
+    id: 7,
+    title: "St.Maarten",
+    location: "📌 St.Maarten ",
+    googleMapsUrl: "https://goo.gl/maps/EHMcVoAyfcsPSjf87",
+    startDate: "Visited in 2005 &",
+    endDate: "2012",
+    description:
+     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    imageUrl: "sxm2.jpg",
+    isNotLast: true /* is used to conditionally render a <hr /> element at the top of the Travel Card component */,
+  },
+  {
+    id: 8,
+    title: "Brazil",
+    location: "📌 Brazil ",
+    googleMapsUrl: "https://goo.gl/maps/WLaqtorthPD9QCFB9",
+    startDate: "Visited in 2014 &",
+    endDate: "2015",
+    description:
+     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    imageUrl: "brazil.jpg",
+    isNotLast: true /* is used to conditionally render a <hr /> element at the top of the Travel Card component */,
+  },
+  {
+    id: 9,
+    title: "Suriname",
+    location: "📌 Suriname ",
+    googleMapsUrl: "https://goo.gl/maps/KSwU37xSnvBGPjMD9",
+    startDate: "Visisted in 2017",
+    endDate: "",
+    description:
+     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    imageUrl: "suriname.jpg",
+    isNotLast: true /* is used to conditionally render a <hr /> element at the top of the Travel Card component */,
+  },
+  {
+    id: 10,
+    title: "Panama",
+    location: "📌 Panama ",
+    googleMapsUrl: "https://goo.gl/maps/XsT6EzTecKB24dze6",
+    startDate: "Living here since 2021",
+    endDate: "",
+    description:
+     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    imageUrl: "panama.jpg",
+    isNotLast: false /* is used to conditionally render a <hr /> element at the top of the Travel Card component */,
+  },
+];
+
+export default data;
