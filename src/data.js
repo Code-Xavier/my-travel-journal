@@ -68,7 +68,7 @@ const data = [
     endDate: "& (2016-2021)",
     description:
      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    imageUrl: "guyana.jpg",
+    imageUrl: "guyana2.jpg",
     isNotLast: true /* is used to conditionally render a <hr /> element at the top of the Travel Card component */,
   },
   {
